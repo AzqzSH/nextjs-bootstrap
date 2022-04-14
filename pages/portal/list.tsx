@@ -66,6 +66,8 @@ const List: AuthPage = ({ user }) => {
 					})
 				);
 			}}
+			expandable
+			renderContent={({ email }) => <>{email}</>}
 			TableEmptyComponent={
 				<div className="font-medium text-lg">No Patients Found</div>
 			}

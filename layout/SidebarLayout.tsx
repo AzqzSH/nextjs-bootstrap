@@ -133,7 +133,7 @@ const RouteLink: React.FC<{
 		</>
 	);
 
-	return renderRoute;
+	return <React.Fragment key={route.href}> {renderRoute} </React.Fragment>;
 };
 
 interface SidebarLayoutProps {
