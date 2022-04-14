@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg path {
+	@apply stroke-1;
+}
+
+html {
+	width: 100vw;
+}
+
+body {
+	overflow-x: hidden;
+}
